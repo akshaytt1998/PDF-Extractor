@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.center-box {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.dropzone p {
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.viewer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.annotationLayer{
+  display: none;
+}
+
+.title{
+  text-align: center;
+}
+
+.page-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px; /* Add margin as needed */
+}
+
+.page-checkboxes label {
+  display: flex;
+  align-items: center;
+  margin: 0 10px; /* Add margin as needed */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Add margin as needed */
+}
+
+.buttons button {
+  margin: 5px 0; /* Add margin as needed */
+}
